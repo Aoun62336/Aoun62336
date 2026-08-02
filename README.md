@@ -14,7 +14,7 @@
 
 Cloud-native infrastructure engineer building production-grade platforms on AWS — end-to-end, from IaC provisioning to GitOps delivery and full observability. I treat infrastructure as a product: automated, secure by design, and observable by default.
 
-Open to **DevOps / Cloud Engineer** roles. → [aounmd74@gmail.com](mailto:aounmd74@gmail.com) · [LinkedIn](https://www.linkedin.com/in/aoun26)
+Open to **DevOps / Cloud Engineer** roles.
 
 ---
 
@@ -22,7 +22,7 @@ Open to **DevOps / Cloud Engineer** roles. → [aounmd74@gmail.com](mailto:aounm
 
 <table>
   <tr>
-    <td valign="top" width="33%">
+    <td valign="top" width="25%">
 
 **☁️ Cloud & IaC**
 
@@ -32,7 +32,7 @@ Open to **DevOps / Cloud Engineer** roles. → [aounmd74@gmail.com](mailto:aounm
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
   </td>
-  <td valign="top" width="33%">
+  <td valign="top" width="25%">
 
 **☸️ Containers & Orchestration**
 
@@ -41,7 +41,7 @@ Open to **DevOps / Cloud Engineer** roles. → [aounmd74@gmail.com](mailto:aounm
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
 
   </td>
-  <td valign="top" width="33%">
+  <td valign="top" width="25%">
 
 **🔄 CI/CD & GitOps**
 
@@ -51,9 +51,7 @@ Open to **DevOps / Cloud Engineer** roles. → [aounmd74@gmail.com](mailto:aounm
 ![Trivy](https://img.shields.io/badge/Trivy-1D4B8F?style=flat-square&logoColor=white)
 
   </td>
-</tr>
-<tr>
-  <td valign="top" width="33%">
+  <td valign="top" width="25%">
 
 **📊 Observability & Reliability**
 
@@ -63,19 +61,11 @@ Open to **DevOps / Cloud Engineer** roles. → [aounmd74@gmail.com](mailto:aounm
 ![Loki](https://img.shields.io/badge/Loki-F79520?style=flat-square&logo=grafana&logoColor=white)
 
   </td>
-  <td valign="top" width="33%">
+</tr>
+<tr>
+  <td colspan="4">
 
-**🔐 DevSecOps & Security**
-
-![IRSA](https://img.shields.io/badge/IRSA-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
-![WAF](https://img.shields.io/badge/AWS%20WAF-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
-![ESO](https://img.shields.io/badge/Ext.%20Secrets%20Op.-EF7B4D?style=flat-square&logo=argo&logoColor=white)
-
-  </td>
-  <td valign="top" width="33%">
-
-**💻 Languages & Backend**
-
+**💻 Languages & Backend** &nbsp;&nbsp;
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -118,7 +108,7 @@ Full-stack construction site management system deployed on **AWS EKS** using a c
 **Software Developer Intern — Noorisys Technologies Pvt. Ltd.**
 `Feb 2026 – May 2026 · Malegaon, India`
 
-Built and shipped full-stack features using React, Python FastAPI, and PostgreSQL. Implemented CRUD operations, JWT authentication flows, and role-based access control logic. Developed AssembleMonitor as the primary project during this internship and continued extending its cloud infrastructure independently — applying Terraform, EKS, ArgoCD GitOps, 17-stage Jenkins CI, and a full OpenTelemetry observability stack on AWS.
+Built and shipped full-stack features using React, Python FastAPI, and PostgreSQL, implementing CRUD operations, JWT authentication flows, and role-based access control. Initiated the AssembleMonitor platform during the internship, and subsequently transitioned to independently designing and owning its full delivery lifecycle on AWS — implementing Terraform, EKS, ArgoCD GitOps, a 17-stage Jenkins CI pipeline, and a complete OpenTelemetry observability stack.
 
 **Web Hosting & Cloud Support Intern — CanveX**
 `Jan 2025 – Mar 2025 · Remote`
@@ -129,11 +119,11 @@ Managed web hosting environments for client operations. Executed cross-platform 
 
 ## Education
 
-🎓 **Master of Computer Applications (MCA)** — Dr. B. V. Hiray College of Management and Research Center
-`2024 – Present · Malegaon, Maharashtra`
+**Master of Computer Applications (MCA)**
+`Dr. B. V. Hiray College of Management and Research Center · 2024 – Present · Malegaon, Maharashtra`
 
-🎓 **B.Sc. Computer Science** — M.S.G Arts, Science, and Commerce College
-`2021 – 2024 · Malegaon, Maharashtra · CGPA: 7.69`
+**B.Sc. Computer Science**
+`M.S.G Arts, Science, and Commerce College · 2021 – 2024 · Malegaon, Maharashtra · CGPA: 7.69`
 
 ---
 
@@ -147,9 +137,3 @@ Managed web hosting environments for client operations. Executed cross-platform 
 | Python With AI                                  | SkillEcted | Automation & scripting             |
 | Web Technology                                  | Swayam     | Full-stack fundamentals            |
 | Ethical Hacking                                 | NPTEL      | Security mindset & threat modeling |
-
----
-
-## Languages
-
-🗣️ English &nbsp;·&nbsp; Urdu &nbsp;·&nbsp; Hindi &nbsp;·&nbsp; Arabic (Basic)
