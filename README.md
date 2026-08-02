@@ -1,6 +1,10 @@
 # Aoun Md. &nbsp;·&nbsp; DevOps & Cloud Engineer
 
 <p>
+  <sub>Malegaon, Maharashtra, India &nbsp;|&nbsp; Open to DevOps / Cloud Engineer roles</sub>
+</p>
+
+<p>
   <a href="https://www.linkedin.com/in/aoun26" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   &nbsp;
   <a href="mailto:aounmd74@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"/></a>
@@ -95,11 +99,11 @@ Full-stack construction site management system deployed on **AWS EKS** using a c
 
 **What's under the hood:**
 
-- 🏗️ **EKS** — Terraform-provisioned; HPA scales 2→5 pods under load; ALB + WAFv2; nightly destroy/rebuild completes in ~8 min, validating full IaC reproducibility
-- 🔄 **17-stage Jenkins CI** — Shift-left security: Trivy CVE scan → SonarQube quality gate → Docker build → ArgoCD GitOps sync; Git is the single source of truth for all deployments
-- 🔐 **Zero secrets in Git** — ESO + IRSA pulls live credentials from AWS Secrets Manager at pod startup; every service account scoped with least-privilege IRSA
-- 📊 **Full OTel pipeline** — Logs → Loki · Distributed Traces → Tempo · Metrics → AMP · Dashboards → Grafana; SLO/SLI definitions drive alert burn-rate rules
-- 🛡️ **Security-first** — WAFv2 managed rules, IMDSv2 hop-limit=1, IRSA on every service account, automated vulnerability scanning on every pipeline run
+- 🏗️ **EKS** — Terraform-provisioned; HPA scales 2→5 pods under load; ALB + WAFv2; RDS PostgreSQL, S3; entire cluster rebuilt from scratch in ~8 min via `terraform apply`, validating full IaC reproducibility
+- 🔄 **17-stage Jenkins CI** — Shift-left security: Trivy CVE scan → SonarQube SAST quality gate → Docker build → Docker Hub → ArgoCD GitOps sync; zero-downtime rolling updates on Helm chart tag commits; Git is the single source of truth
+- 🔐 **Zero secrets in Git** — External Secrets Operator syncs credentials from AWS Secrets Manager into Kubernetes at runtime via IRSA; no base64 secrets committed anywhere; every service account scoped with least-privilege IRSA
+- 📊 **Full OTel pipeline** — OTel Collector DaemonSet → Logs to Grafana Loki · Distributed Traces to Grafana Tempo · Metrics to Amazon Managed Prometheus · all visualised in Grafana
+- 🛡️ **Security-first** — WAFv2 managed rules, IMDSv2 hop-limit=1, IRSA on every pod, SonarQube SAST, Trivy image scanning, all workloads in private subnets
 
 <br/>
 
@@ -114,7 +118,7 @@ Full-stack construction site management system deployed on **AWS EKS** using a c
 **Software Developer Intern — Noorisys Technologies Pvt. Ltd.**
 `Feb 2026 – May 2026 · Malegaon, India`
 
-Built and shipped full-stack features using React, Python FastAPI, and PostgreSQL. Developed AssembleMonitor as the primary project — subsequently extended its infrastructure independently, owning the full delivery lifecycle: Terraform provisioning, EKS cluster management, ArgoCD GitOps pipelines, 17-stage Jenkins CI, and a full OpenTelemetry observability stack on AWS.
+Built and shipped full-stack features using React, Python FastAPI, and PostgreSQL. Implemented CRUD operations, JWT authentication flows, and role-based access control logic. Developed AssembleMonitor as the primary project during this internship and continued extending its cloud infrastructure independently — applying Terraform, EKS, ArgoCD GitOps, 17-stage Jenkins CI, and a full OpenTelemetry observability stack on AWS.
 
 **Web Hosting & Cloud Support Intern — CanveX**
 `Jan 2025 – Mar 2025 · Remote`
