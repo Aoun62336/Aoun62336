@@ -12,9 +12,7 @@
   <a href="https://github.com/Aoun62336/AssembleMonitor-DevOps" target="_blank"><img src="https://img.shields.io/badge/Featured%20Project-181717?style=flat-square&logo=github&logoColor=white" alt="Featured Project"/></a>
 </p>
 
-Cloud-native infrastructure engineer building production-grade platforms on AWS — end-to-end, from IaC provisioning to GitOps delivery and full observability. I treat infrastructure as a product: automated, secure by design, and observable by default.
-
-Open to **DevOps / Cloud Engineer** roles.
+DevOps engineer who designed and delivered AssembleMonitor — a full-stack construction management platform — end-to-end on AWS EKS: Terraform IaC, a Jenkins GitOps pipeline, External Secrets Operator, and a full OpenTelemetry observability stack. I treat infrastructure as a product: automated, secure by design, and observable by default.
 
 ---
 
@@ -59,6 +57,7 @@ Open to **DevOps / Cloud Engineer** roles.
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![Loki](https://img.shields.io/badge/Loki-F79520?style=flat-square&logo=grafana&logoColor=white)
+![Tempo](https://img.shields.io/badge/Tempo-F79520?style=flat-square&logo=grafana&logoColor=white)
 
   </td>
 </tr>
@@ -89,11 +88,12 @@ Full-stack construction site management system deployed on **AWS EKS** using a c
 
 **What's under the hood:**
 
-- 🏗️ **EKS** — Terraform-provisioned; HPA scales 2→5 pods under load; ALB + WAFv2; RDS PostgreSQL, S3; entire cluster rebuilt from scratch in ~8 min via `terraform apply`, validating full IaC reproducibility
-- 🔄 **17-stage Jenkins CI** — Shift-left security: Trivy CVE scan → SonarQube SAST quality gate → Docker build → Docker Hub → ArgoCD GitOps sync; zero-downtime rolling updates on Helm chart tag commits; Git is the single source of truth
-- 🔐 **Zero secrets in Git** — External Secrets Operator syncs credentials from AWS Secrets Manager into Kubernetes at runtime via IRSA; no base64 secrets committed anywhere; every service account scoped with least-privilege IRSA
+- 🏗️ **EKS** — Terraform-provisioned cluster with ALB, RDS PostgreSQL, and S3; IaC-reproducible stack — entire environment rebuilt from a clean state on every `terraform apply`
+- 🔄 **Jenkins CI pipeline** — Shift-left security: Trivy CVE scan → SonarQube SAST quality gate → Docker build → Docker Hub → ArgoCD GitOps sync; zero-downtime rolling updates on Helm chart tag commits; Git is the single source of truth
+- 🔐 **Zero secrets in Git** — External Secrets Operator syncs credentials from AWS Secrets Manager into Kubernetes at runtime; no base64 secrets committed anywhere; all workloads scoped to least-privilege permissions
 - 📊 **Full OTel pipeline** — OTel Collector DaemonSet → Logs to Grafana Loki · Distributed Traces to Grafana Tempo · Metrics to Amazon Managed Prometheus · all visualised in Grafana
-- 🛡️ **Security-first** — WAFv2 managed rules, IMDSv2 hop-limit=1, IRSA on every pod, SonarQube SAST, Trivy image scanning, all workloads in private subnets
+- 🛡️ **Security-first** — IMDSv2 hop-limit=1, External Secrets Operator, SonarQube SAST, Trivy image scanning, all workloads in private subnets
+- 🔁 **Architectural Evolution** — Progressed from EC2 Auto Scaling Groups through a complete K3s deployment path (Jenkins + direct kubectl), to Amazon EKS with full GitOps — each stage a deliberate, documented architecture decision
 
 <br/>
 
@@ -108,7 +108,7 @@ Full-stack construction site management system deployed on **AWS EKS** using a c
 **Software Developer Intern — Noorisys Technologies Pvt. Ltd.**
 `Feb 2026 – May 2026 · Malegaon, India`
 
-Built and shipped full-stack features using React, Python FastAPI, and PostgreSQL, implementing CRUD operations, JWT authentication flows, and role-based access control. Initiated the AssembleMonitor platform during the internship, and subsequently transitioned to independently designing and owning its full delivery lifecycle on AWS — implementing Terraform, EKS, ArgoCD GitOps, a 17-stage Jenkins CI pipeline, and a complete OpenTelemetry observability stack.
+Designed and delivered full-stack features using React, Python FastAPI, and PostgreSQL, implementing CRUD operations, JWT authentication flows, and role-based access control. Initiated the AssembleMonitor platform during the internship, and subsequently took independent ownership of its full delivery lifecycle on AWS — implementing Terraform, EKS, ArgoCD GitOps, a Jenkins CI pipeline, and a complete OpenTelemetry observability stack.
 
 **Web Hosting & Cloud Support Intern — CanveX**
 `Jan 2025 – Mar 2025 · Remote`
@@ -120,7 +120,7 @@ Managed web hosting environments for client operations. Executed cross-platform 
 ## Education
 
 **Master of Computer Applications (MCA)**
-`Dr. B. V. Hiray College of Management and Research Center · 2024 – Present · Malegaon, Maharashtra`
+`Dr. B. V. Hiray College of Management and Research Center · 2024 – 2026 · Malegaon, Maharashtra`
 
 **B.Sc. Computer Science**
 `M.S.G Arts, Science, and Commerce College · 2021 – 2024 · Malegaon, Maharashtra · CGPA: 7.69`
@@ -133,7 +133,7 @@ Managed web hosting environments for client operations. Executed cross-platform 
 | :---------------------------------------------- | :--------- | :--------------------------------- |
 | AWS Solutions Architecture — Virtual Experience | Forage     | Cloud architecture & AWS services  |
 | OCI Cloud Foundations Associate                 | Oracle     | Multi-cloud fundamentals           |
-| OCI AI Foundations Associate                    | Oracle     | AI/ML on cloud platforms           |
+| OCI AI Foundations Associate                    | Oracle     | AI on cloud platforms              |
 | Python With AI                                  | SkillEcted | Automation & scripting             |
 | Web Technology                                  | Swayam     | Full-stack fundamentals            |
 | Ethical Hacking                                 | NPTEL      | Security mindset & threat modeling |
