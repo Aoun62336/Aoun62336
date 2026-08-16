@@ -79,7 +79,7 @@ DevOps engineer who designed and delivered AssembleMonitor — a full-stack cons
 ## Featured Project
 
 <a href="https://github.com/Aoun62336/AssembleMonitor-DevOps">
-  <img align="right" width="420" src="https://raw.githubusercontent.com/Aoun62336/AssembleMonitor-DevOps/main/docs/architecture/00-master-overview.png" alt="AssembleMonitor Architecture"/>
+  <img align="right" width="420" src="https://raw.githubusercontent.com/Aoun62336/AssembleMonitor-DevOps/main/docs/architecture/01-system-context-diagram.jpeg" alt="AssembleMonitor Architecture"/>
 </a>
 
 ### [AssembleMonitor — Cloud-Native Construction Platform](https://github.com/Aoun62336/AssembleMonitor-DevOps)
