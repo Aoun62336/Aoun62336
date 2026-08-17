@@ -5,7 +5,7 @@
 <p>
   <a href="https://www.linkedin.com/in/aoun26"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:aounmd74@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://github.com/Aoun62336/AssembleMonitor-DevOps"><img src="https://img.shields.io/badge/Featured%20Project-AssembleMonitor-181717?style=flat-square&logo=github&logoColor=white" alt="AssembleMonitor featured project"></a>
+  <a href="https://github.com/Aoun62336/AssembleMonitor-DevOps"><img src="https://img.shields.io/badge/Featured%20Project-181717?style=flat-square&logo=github&logoColor=white" alt="AssembleMonitor featured project"></a>
 </p>
 
 Cloud and DevOps Engineer focused on **AWS, Terraform, Kubernetes, CI/CD, GitOps, and observability**. I have hands-on experience from software engineering and cloud-support internships, and I independently extended **AssembleMonitor** into an AWS/EKS environment covering infrastructure provisioning, delivery automation, workload identity, secret management, autoscaling, and telemetry.
