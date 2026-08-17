@@ -84,13 +84,13 @@ Savitribai Phule Pune University · `2021 – 2024`
 
 - **Oracle Cloud Infrastructure Foundations Associate** — Oracle
 - **Oracle Cloud Infrastructure AI Foundations Associate** — Oracle
+- **Web Technology** — SWAYAM
+- **Ethical Hacking** — NPTEL
 
 <details>
 <summary><strong>Selected Training & Coursework</strong></summary>
 
 - **AWS Solutions Architecture** — Forage *(Job Simulation)*
-- **Web Technology** — SWAYAM
-- **Ethical Hacking** — NPTEL
 - **Python With AI** — Training
 
 </details>
