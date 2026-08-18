@@ -54,7 +54,7 @@ AssembleMonitor is a construction site management application that I continued i
 
 ## Experience
 
-### Software Engineer Intern — Noorisys Technologies Pvt. Ltd.
+### Software Developer Intern — Noorisys Technologies Pvt. Ltd.
 `Feb 2026 – May 2026`
 
 - Developed full-stack features for AssembleMonitor using **React, Python FastAPI, and PostgreSQL**.
