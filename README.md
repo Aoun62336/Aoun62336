@@ -25,6 +25,16 @@ A construction management application I contributed to during my software develo
 - **Security and observability:** Configured IRSA, Secrets Manager, External Secrets Operator, Trivy scanning, OpenTelemetry, Grafana, Loki, Tempo, and Amazon Managed Prometheus.
 - **Verification:** Documented pipeline checks, Terraform tests, and controlled reliability exercises. Database, API, and DNS fault drills were conducted in a separate local Docker Compose environment.
 
+<p align="center">
+  <a href="https://aoun62336.github.io/work/assemblemonitor/">
+    <img
+      src="https://raw.githubusercontent.com/Aoun62336/Aoun62336.github.io/master/src/assets/project-media/assemblemonitor-aws.png"
+      alt="AssembleMonitor AWS architecture showing EKS, VPC networking, ALB, RDS, and supporting AWS services"
+      width="520"
+    />
+  </a>
+</p>  
+
 **[Case Study](https://aoun62336.github.io/work/assemblemonitor/)** · [Source Code](https://github.com/Aoun62336/AssembleMonitor-DevOps) · [Architecture](https://github.com/Aoun62336/AssembleMonitor-DevOps/blob/main/docs/architecture/ARCHITECTURE.md) · [GitOps Pipeline](https://github.com/Aoun62336/AssembleMonitor-DevOps/blob/main/Jenkinsfile-gitops)
 
 ### 02. [RenewGrid](https://github.com/Aoun62336/RenewGrid-DevOps)
@@ -40,6 +50,16 @@ An e-waste management application used to implement, troubleshoot, and verify di
 
 These were separate delivery implementations using the same application, not consecutive stages of one production pipeline.
 
+<p align="center">
+  <a href="https://aoun62336.github.io/work/renewgrid/">
+    <img
+      src="https://raw.githubusercontent.com/Aoun62336/Aoun62336.github.io/master/src/assets/project-media/renewgrid-delivery.png"
+      alt="RenewGrid engineering diagram showing CI/CD, container delivery, and Terraform workflows"
+      width="520"
+    />
+  </a>
+</p>
+
 **[Case Study](https://aoun62336.github.io/work/renewgrid/)** · [GitHub Actions Repository](https://github.com/Aoun62336/RenewGrid-DevOps) · [Jenkins & Terraform Repository](https://github.com/Aoun62336/RenewGrid-Terraform-IaC) · [Verification Evidence](https://github.com/Aoun62336/RenewGrid-Terraform-IaC/blob/main/evidence/jenkins/jenkins-verification.md)
 
 ### 03. [CallMissed AI Workspace](https://github.com/Aoun62336/CallMissed-Ai-Workspace)
@@ -52,6 +72,16 @@ A React and FastAPI AI workspace supporting chat, image generation, and browser-
 - **CI/CD:** Implemented GitHub Actions validation, Trivy scanning, immutable ECR image publication, and AWS deployment authentication through OIDC.
 - **Security and operations:** Used Secrets Manager, request controls, application health checks, CloudWatch logging, and previous-image rollback logic.
 - **Verification:** Recorded 19 passing backend tests, provider smoke checks, and a previous-image rollback and restoration exercise. The automatic health-failure rollback path is implemented but was not established by that particular drill.
+
+<p align="center">
+  <a href="https://aoun62336.github.io/work/callmissed/">
+    <img
+      src="https://raw.githubusercontent.com/Aoun62336/Aoun62336.github.io/master/src/assets/project-media/callmissed-runtime.png"
+      alt="CallMissed serverless runtime architecture showing the application and AWS Lambda integration"
+      width="520"
+    />
+  </a>
+</p> 
 
 **[Case Study](https://aoun62336.github.io/work/callmissed/)** · [Source Code](https://github.com/Aoun62336/CallMissed-Ai-Workspace) · [Architecture Decisions](https://github.com/Aoun62336/CallMissed-Ai-Workspace/blob/main/docs/DECISIONS.md) · [Test Evidence](https://github.com/Aoun62336/CallMissed-Ai-Workspace/blob/main/docs/TEST_EVIDENCE.md)
 
